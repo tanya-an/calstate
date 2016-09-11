@@ -878,14 +878,21 @@ h5{
     border-left: 1px solid #a9a9a9;
 }
 
+
 .quote .contact-form .input-group{
     margin-top: 8px;
     min-height: 40px;
+    background: none;
 }
 
 
 .quote .contact-form .input-group input{
 	height: 55px;
+	border: none;
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    background: none;
 }
 .quote .contact-form .input-group select{
     border:none;
@@ -992,7 +999,7 @@ width: 100%;
   color: #e85656;
   position: absolute;
   left: -10px;
-  top: -30px;
+  top: -10px;
   z-index: 1;
 
 }
