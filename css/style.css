@@ -57,7 +57,7 @@ h5{
 }
 .row{
 	margin-top: 108px;
-	margin-bottom: 115px;
+	margin-bottom: 85px;
 } 
 
 /*header area*/
@@ -166,7 +166,7 @@ h5{
 	background-size: cover;
 }
 .banner .row{
-	margin-bottom: 0;
+	margin-bottom: 68px;
 	margin-top: 0;
 }
 
