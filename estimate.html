@@ -106,7 +106,7 @@
 						<div class="row table_btn" >
 				            <div class="col-md-2 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;">
 				                <div class="input-group " style="width:100%;">
-				                    <select name="size_of_move" style="width:98%;">
+				                    <select name="size_of_move" style="width:98%;" >
 				                    	<option disabled selected="">- Size Of Move -</option>
 									    <option value="Studio">Studio</option>
 									    <option value="1 Bedroom">1 Bedroom</option>
@@ -122,14 +122,14 @@
 
 				            <div class="col-md-2 win_input_groups">
 				                <div class="input-group ">
-				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required>
+				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
 
 				            <div class="col-md-2 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 				                <div class="input-group ">
-				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required>
+				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
@@ -142,7 +142,7 @@
 			            </div>
 			            <div class="row input-group" style="margin-top:15px;">
 			            
-							<input type="text" name="promo" id="promo" class="form-control" placeholder="Promo Code" required style="">
+							<input type="text" name="promo" id="promo" class="form-control" placeholder="Promo Code"  style="">
 
 				            <button  id="submitbtn" name="submitbtn" style="padding: 15px 40px; border-radius: 2px; margin-right:71px; float:right;">SUBMIT <b>NOW</b> </button>
 				            

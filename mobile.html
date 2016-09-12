@@ -522,7 +522,7 @@
 				<h3>GET A <b style="color: #2e8ccf;">FREE QUOTE</b></h3>
 				
 				<article class="contact-form">
-					<form id="form" action="contact-form.php" method="post">
+					<form id="form_mob" action="contact-form.php" method="post">
 						<div class="row">
 							<div class="win_input_groups">
 								<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required >
@@ -543,18 +543,15 @@
 								</select>
 
 								<div class="col-xs-6">
-									<input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required style="margin-bottom:20px;">
+									<input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}" style="margin-bottom:20px;">
 								</div>
 								<div class="col-xs-6">
-									<input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required>
+									<input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
 								</div>
 
 								<center>
 									<button  id="submitbtn" name="submitbtn" style="margin-top:20px;">SUBMIT <b>NOW</b> </button>
 								</center>
-
-
-
 
 
 								</div>
@@ -589,6 +586,7 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+	
 	<script type="text/javascript" src="js/script.js"></script>
 	<script src="js/wow.js"></script>
 	

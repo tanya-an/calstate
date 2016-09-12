@@ -93,12 +93,12 @@
 						<iframe width="487.5" height="275" src="https://www.youtube.com/embed/YZh5laVdCVA" frameborder="0" allowfullscreen></iframe>
 					</center>
 					
-					<form id="" action="" method="POST" name="">
+					<form id="form1" action="contact-form.php" method="POST" name="">
 					    <div class="input-group" >
-				            <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From" style="margin-right:10px; border-top-left-radius: 2px;border-bottom-left-radius: 2px;">
+				            <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From" pattern="[0-9]{5}" style="margin-right:10px; border-top-left-radius: 2px;border-bottom-left-radius: 2px;">
 				            <span class="input-group-addon" style="padding-left:0;"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 
-				            <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To"v style="border-left: 1px solid #e9e9e9;">
+				            <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" pattern="[0-9]{5}" style="border-left: 1px solid #e9e9e9;">
 				            <span class="input-group-addon" style="border-top-right-radius: 2px;    border-bottom-right-radius: 2px;"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				            <a href="./estimate.html">
 				            <input type="button" id="submitbtn" name="submitbtn"  value="GET FREE QUOTE"></input>
@@ -356,19 +356,19 @@
 						<p>Get rates from CalState professional movers today.</p>
 
 						<article class="contact-form">
-							<form id="form" action="contact-form.php" method="post">
+							<form id="form2" action="contact-form.php" method="post" >
 							<div class="row" >
 								<div class="table_btn" >
 									<div class="col-md-6 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;     border-right: none;">
-		                				<div class="input-group ">
-		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required >
+		                				<div class="input-group">
+		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
 		                   	 				<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
 		                				</div>
 		            				</div>
 
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 						                <div class="input-group">
-						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required >
+						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required pattern="">
 						                    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>  
 						                </div>
 						            </div>
@@ -376,7 +376,7 @@
 								<div class=" table_btn" >
 						            <div class="col-md-6 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;     border-right: none;">
 						                <div class="input-group " style="width:100%;">
-						                    <select name="size_of_move" style="width:98%;">
+						                    <select name="size_of_move" required style="width:98%;">
 						                    	<option disabled selected="">-  Size Of Home -</option>
 											    <option value="Studio">Studio</option>
 											    <option value="1 Bedroom">1 Bedroom</option>
@@ -427,7 +427,7 @@
 						<p>Get rates from CalState professional movers today.</p>
 
 						<article class="contact-form">
-							<form id="form" action="contact-form.php" method="post">
+							<form id="form3" action="contact-form.php" method="post">
 							<div class="row" >
 								<div class="table_btn" >
 									<div class="col-md-6 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;     border-right: none;">
@@ -468,14 +468,14 @@
 						            </div>
 									<div class="col-md-6 win_input_groups">
 						                <div class="input-group ">
-						                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required>
+						                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}">
 						                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
 
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;">
 						                <div class="input-group ">
-						                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required>
+						                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
 						                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
@@ -681,7 +681,7 @@
 				</div>
 				
 				<article class="contact-form">
-					<form id="form" action="contact-form.php" method="post">
+					<form id="form4" action="contact-form.php" method="post">
 						<div class="row table_btn" >
 							<div class="col-md-2 win_input_groups" style="border-top-left-radius: 5px;border-bottom-left-radius: 5px;">
                 				<div class="input-group ">
@@ -722,14 +722,14 @@
 
 				            <div class="col-md-2 win_input_groups">
 				                <div class="input-group ">
-				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required>
+				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
 
 				            <div class="col-md-2 win_input_groups" style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;">
 				                <div class="input-group ">
-				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required>
+				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
