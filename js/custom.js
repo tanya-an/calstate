@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
      jQuery(window).scroll(function() {
         var windowScrollPosTop = jQuery(window).scrollTop();
 
-        if(windowScrollPosTop >= 150) {
+        if(windowScrollPosTop >= 100) {
           jQuery(".top-header").css({"background": "#222222"});
           jQuery(".top-header img.logo").css({"position":"absolute",  "left":"509px", "width": "152px", "height": "71.44px", "margin-top":"-13px" ,"margin-bottom": "0"});
           jQuery(".nav-bar").css({"margin-top": "25px",});

@@ -158,7 +158,7 @@ h5{
 /*banner area*/
 .banner{
 	background: url(../images/banner.jpg);
-	min-height: 1080px;
+	min-height: 1000px;
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: hidden;
@@ -166,7 +166,7 @@ h5{
 	background-size: cover;
 }
 .banner .row{
-	margin-bottom: 68px;
+	margin-bottom: 47px;
 	margin-top: 0;
 }
 
@@ -174,7 +174,7 @@ h5{
 	font-size: 24px;
 	color: #fff;
 	font-family: 'OpenSans-Light';
-	margin-top: 249px;
+	margin-top: 190px;
 	margin-bottom: 0;
 	
 	margin-left: 3px;
@@ -262,13 +262,13 @@ h5{
     color: #a9a9a9;
 }
 
-.banner .input-group #submitbtn{
+.banner #submitbtn{
 	line-height: 20px;
 	float: right;
 	height: 60px;
-	min-width: 180px;
+	min-width: 182px;
 	border-radius: 2px;
-	margin-left: 15px;
+	margin-top:9px;
 	font-family: 'OpenSans-Regular', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -284,7 +284,7 @@ h5{
     -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.banner .input-group #submitbtn:hover {
+.banner #submitbtn:hover {
     background: #333333;
     border: 1px solid #333333;
     color: #fff;
@@ -298,6 +298,7 @@ h5{
 	background: #f2f2f2;
 }
 .about_us .tzBlog-item{
+
 	background: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -309,7 +310,7 @@ h5{
     -moz-transition: all 0.3s ease-in-out 0s;
     -ms-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
-
+	
 }
 .about_us .tzBlog-item:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -318,6 +319,11 @@ h5{
     -ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.about_us .tzBlog-image{
+	height: 200px;
+}
+
 .about_us .col_1{
 	margin: 0 0 30px 0;
 }
@@ -335,7 +341,7 @@ h5{
 	border: 1px #fff solid;
 	background: #fff url("../images/man.jpg") 100% 50% no-repeat;
 	padding-left: 35px;
-	min-height: 694px;
+	min-height: 654px;
 }
 .about_us .tzBlog-info h5{
 	font-size: 16px;
@@ -384,7 +390,7 @@ h5{
 	font-size: 25px;
 	color: #333333;
 	font-family: 'OpenSans-Regular', sans-serif;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-bottom: 2px;
 	text-transform: uppercase;
 	text-align: left;
@@ -401,11 +407,11 @@ h5{
 	font-size: 16px;
 	font-family: 'RobotoRegular', sans-serif;
 	color: #4c4c4c;
-	margin-top: 25px;
+	margin-top: 10px;
 	margin-bottom: 4px;
 	padding-top: 15px;
 	padding-right: 45px;
-	padding-bottom: 45px;
+	padding-bottom: 30px;
 	text-align: justify;
 	width: 104%;
 	height: 100%;
@@ -465,8 +471,8 @@ h5{
     background-repeat: no-repeat;
 }
 .price-plan .categories .btn-group{
-	margin-bottom: 65px;
-    margin-top: 50px;
+	margin-bottom: 40px;
+    margin-top: 30px;
 }
 .price-plan .categories .btn-group button{
 	border: 2px solid #2e8ccf;
@@ -497,7 +503,7 @@ h5{
 	background-size: contain;
 	background-position: center center; 
 	margin-top: 40px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }	
 .price-plan  .price-image-center{
 	
@@ -510,7 +516,7 @@ h5{
 .price-plan .price-info h3{
 	font-family: 'OpenSans-Regular', sans-serif;
 	font-weight: 100;
-	margin-top: 15px;
+	margin-top: 10px;
 	color:#2e8ccf;
 	text-transform: none;
 	background: none;
@@ -526,7 +532,8 @@ h5{
 }
 .price-plan .price-info h4{
 	font-size: 25px;
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 8px;
 	color:#333333;
 	text-transform: uppercase;
 	font-family: 'OpenSans-Regular', sans-serif;
@@ -540,7 +547,7 @@ h5{
 
 .price-plan .price-info .book_now {
 	padding: 15px 50px;
-	margin-top: 30px;
+	margin-top: 25px;
     
     display: block;
     font-family: 'OpenSans-Regular', sans-serif;
@@ -581,6 +588,7 @@ h5{
 	color: #666666;
 	font-size: 28px;
 	background: none;
+	margin-bottom: 5px;
 }
 .price-plan .pricing-tables h5 {
 	text-align: right;
@@ -742,8 +750,8 @@ h5{
 	background: url(../images/review.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
-	min-height: 960px;
-	
+	/* min-height: 960px;  */
+	min-height: 880px;
 
 }
 .reviews h3{
@@ -755,7 +763,7 @@ h5{
 	color: #fff;
 	text-align: right;
 	margin-right: 20px;
-	margin-top: 65px;
+	margin-top: 30px;
 	line-height: 1.3;
 	font-size: 16px;
 
@@ -766,16 +774,21 @@ h5{
 	text-align: left;
 	font-size: 40px;
 	margin-left: 20px;
+	margin-top: 30px;
+	line-height: 48px;
 }
 
 .reviews .the-pricing-slider{
-	height: 750px;
+	height: 680px;
 }
 .reviews .the-pricing-slider li{
 	background-color: #fff;
 	width: 15px;
 	height: 15px;
 	margin: 0 10px;
+}
+.reviews .the-pricing-slider .carousel-indicators{
+	bottom:0px;
 }
 .reviews .the-pricing-slider .carousel-indicators .active {
 	border:1px solid #2e8ccf;
@@ -796,14 +809,14 @@ h5{
 	padding-right: 0;
 }
 .reviews .reviews-item{
-	background: #fff url(../images/review_6.jpg) no-repeat;
-	height: 360px;
+	
+	height: 350px;
 	min-width: 540px;
 	background-size: contain;
 	margin-right: 0;
 	border:1px solid #2e8ccf;
 	
-	margin-top: 40px;
+	margin-top: 15px;
 }
 .reviews .reviews-item .person{
 	

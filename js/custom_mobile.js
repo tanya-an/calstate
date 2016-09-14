@@ -49,19 +49,19 @@ jQuery(document).ready(function() {
         var windowScrollPosTop = jQuery(window).scrollTop();
 
         if(windowScrollPosTop >= 50) {
-          jQuery(".top-header").css({"background": "rgba(0,0,0,0.8)"});
-         
+          jQuery(".top-header").css({"background": "#222222"});
+          jQuery(".navbar-default .navbar-collapse").css({"background": "#222222"});
           
           jQuery(".navbar-default .navbar-toggle").css({"margin-top": "7px",});
 
         }
         else{
           jQuery(".top-header").css({"background": "transparent",});
-           
+          jQuery(".navbar-default .navbar-collapse").css({"background": "rgba(0,0,0,0.9)"});
            jQuery(".nav-bar").css({"margin-top": "10px"});
           
         }
      });
-	
 
+      
 });

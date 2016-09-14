@@ -34,7 +34,13 @@ jQuery(document).ready(function () {
         // }
     // };
     // });
-
+    jQuery('#form_banner').submit(function (evt) {
+        evt.preventDefault();
+        window.history.back();
+            
+        document.location.href = "./estimate.html";
+        
+    });
 
     jQuery('#form, #form2, #form3, #form4').submit(function (evt) {
         evt.preventDefault();

@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	
-	<title>CalState</title>
+	<meta name="description" content="CalState Moving & Storage and its professional movers have a combined total of 10 years in the moving industry.">
+	<title>CalState Moving & Storage - Local & Long Distance Moving</title>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -14,6 +15,16 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
 	<script src="js/modernizr.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33347016-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -56,7 +67,7 @@
 
 						        <li><a href="#prices" style="margin-left:60px;">PRICES</a></li>
 						        <li><a href="#reviews"">REVIEWS</a></li>
-						        <li><a href="#quote" style="color:#2e8ccf">GET A QUOTE</a></li>
+						        <li><a href="./quote.html" style="color:#2e8ccf">GET A QUOTE</a></li>
 						    </ul>
 						    <div>
 						   	<img src="images/line-a.png" style="margin-top:16px;">
@@ -86,26 +97,32 @@
 				</div>
 				<div class="col-md-5" style="padding-left:0; padding-right:0;">
 					<h6>Local & Long Distance Moving</h6>
-					<h1 style="color: #2c8dd2; font-family: 'OpenSans-Bold', monospace; font-weight: bold; font-size:75px;margin-top:10px; letter-spacing: -2px;">CalState<b style="color:#fff; font-weight:100; margin-left:15px;">-</b></h1>
+					<h1 style="color: #2c8dd2; font-family: 'OpenSans-Bold', sans-serif; font-weight: bold; font-size:75px;margin-top:10px; letter-spacing: -2px;">CalState<b style="color:#fff; font-weight:100; margin-left:15px;">-</b></h1>
 					<h1>#1 California</h1>
 					<h2>Moving Service</h2>
 					<center>
 						<iframe width="487.5" height="275" src="https://www.youtube.com/embed/YZh5laVdCVA" frameborder="0" allowfullscreen></iframe>
 					</center>
 					
-					<form id="form1" action="contact-form.php" method="POST" name="">
-					    <div class="input-group" >
-				            <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From" pattern="[0-9]{5}" style="margin-right:10px; border-top-left-radius: 2px;border-bottom-left-radius: 2px;">
+					<form id="form_banner" method="POST">
+					<div class="row">
+					<div class="col-md-8" style="width:60%;padding-right:5px;">
+						<div class="input-group" >
+				            <input type="text" style="margin-right:10px; border-top-left-radius: 2px;border-bottom-left-radius: 2px;" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From" pattern="[0-9]{5}" required onfocus="if (this.placeholder == 'ZIP Code From') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = ' ZIP Code From';}">
 				            <span class="input-group-addon" style="padding-left:0;"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 
-				            <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" pattern="[0-9]{5}" style="border-left: 1px solid #e9e9e9;">
+				            <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}" onfocus="if (this.placeholder == 'ZIP Code To') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = ' ZIP Code To'}" style="border-left: 1px solid #e9e9e9;">
 				            <span class="input-group-addon" style="border-top-right-radius: 2px;    border-bottom-right-radius: 2px;"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-				            <a href="./estimate.html">
-				            <input type="button" id="submitbtn" name="submitbtn"  value="GET FREE QUOTE"></input>
-				            </a>
-
 				        </div>
-					</form>
+					</div>
+					<div class="col-md-4" style="width:40%;">
+					<a href="./estimate.html">
+						<input type="button" id="submitbtn" name="submitbtn" value="GET FREE QUOTE"></input>
+						</a>
+					</div>
+					</div>
+				    </form>
+
 					<p>Need Help Booking? Give Us a Call: <b><a href="tel:+12139081228" style="color:#2e8ccf;"> (213) 908-1228</a></b></p>
 
 				</div>
@@ -119,9 +136,9 @@
 	<!-- about us section -->
 	<section class="about_us text-center">
 		<div class="container">		
-			<div class="row">
+			<div class="row" style="margin-bottom:60px;">
 				<h3>MORE THAN <b style="color: #2a7cb7;">1,000 MOVES A MONTH</b></h3>
-				<h5>CalState Moving & Storage and its professional movers have a</br> combined total of 10 years in the moving industry.</h5>
+				<h5 style="margin-bottom:30px;">CalState Moving & Storage and its professional movers have a</br> combined total of 10 years in the moving industry.</h5>
 				
 					<div class="col-md-5 about_us_info" style="width:40%; margin-right:2px;">
 						<h4>About <b>us</b></h4>
@@ -141,8 +158,8 @@
 
 					<div class="col-md-3 about_us_item" style="padding-left:30px;">
 						<div class="tzBlog-item col_1">
-                            <div class="tzBlog-image">
-                                <img src="images/about_us_1.jpg" class="wp-post-image">
+                            <div class="tzBlog-image" style="background:url('images/about_us_1.jpg'); background-size: cover; background-position: center;">
+                                
                             </div>
                             <div class="tzBlog-info">
                                 <h5 >01. LOCAL MOVING</h5> 
@@ -150,8 +167,8 @@
                             </div>
                         </div>
                         <div class="tzBlog-item col_1">
-                            <div class="tzBlog-image">
-                                <img src="images/about_us_3.jpg" class="wp-post-image">
+                            <div class="tzBlog-image" style="background:url('images/about_us_3.jpg'); background-size: cover; background-position: center;">
+                                
                             </div>
                             <div class="tzBlog-info">
                                 <h5>03. PACKING & STORAGE</h5> 
@@ -161,8 +178,8 @@
 					</div>
 					<div class="col-md-3 about_us_item" style="padding-left:30px;">
 						<div class="tzBlog-item col_2">
-                            <div class="tzBlog-image">
-                                <img src="images/about_us_2.jpg" class="wp-post-image">
+                            <div class="tzBlog-image" style="background:url('images/about_us_2.jpg'); background-size: cover; background-position: center;">
+                                
                             </div>
                             <div class="tzBlog-info">
                                 <h5>02. LONG DISTANCE MOVING</h5> 
@@ -170,8 +187,8 @@
                             </div>
                         </div>
                         <div class="tzBlog-item col_2">
-                            <div class="tzBlog-image">
-                                <img src="images/about_us_4.jpg" class="wp-post-image">
+                            <div class="tzBlog-image" style="background:url('images/about_us_4.jpg'); background-size: cover; background-position: center;">
+                                
                             </div>
                             <div class="tzBlog-info">
                                 <h5>04. COMMERCIAL RELOCATION</h5> 
@@ -198,7 +215,7 @@
 						<tr>
 							<td class="icons"><img src="images/Composite Path_1.png"></td>
 							<td class="txt"><h4>Large <b>Storage</b></h4>
-								<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+								<p>We have affordable storage vaults available at our warehouse.</p>
 							</td>
 
 						</tr>
@@ -210,7 +227,7 @@
 						<tr>
 							<td class="icons"><img src="images/Composite Path_4.png"></td>
 							<td class="txt"><h4>Customer <b>Support</b></h4>
-								<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+								<p>We will assist you 24/7 if you have any questions.</p>
 							</td>
 
 						</tr>
@@ -225,7 +242,7 @@
 									<img src="images/Composite Path_2.png">
 								</td>
 								<td class="txt"><h4>On Time <b>Delivery</b></h4>
-									<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+									<p>We guarantee that your belongings would be delivered on time.</p>
 								</td>
 
 							</tr>
@@ -238,7 +255,7 @@
 									<img src="images/Composite Path_5.png">
 								</td>
 								<td class="txt"><h4>Largest <b>Destinations</b></h4>
-									<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+									<p>We are professional intrastate and interstate moving company.</p>
 								</td>
 
 							</tr>
@@ -253,7 +270,7 @@
 									<img src="images/Composite Path_3.png">
 								</td>
 								<td class="txt"><h4>Moving <b>Insurance</b></h4>
-									<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+									<p>We provide basic moving insurance for your belongings for free.</p>
 								</td>
 
 							</tr>
@@ -266,7 +283,7 @@
 									<img src="images/Composite Path_6.png">
 								</td>
 								<td class="txt"><h4>Equipped <b>Trucks</b></h4>
-									<p>The best contact you will get here lorem ipsum dolor sit amet</p>
+									<p>We equip our trucks with all necessary suplies for free use.</p>
 								</td>
 
 							</tr>
@@ -361,14 +378,14 @@
 								<div class="table_btn" >
 									<div class="col-md-6 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;     border-right: none;">
 		                				<div class="input-group">
-		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required onfocus="if (this.placeholder == 'Full Name') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Full Name';}">
 		                   	 				<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
 		                				</div>
 		            				</div>
 
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 						                <div class="input-group">
-						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required pattern="">
+						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required pattern="" onfocus="if (this.placeholder == 'Phone Number') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Phone Number';}">
 						                    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>  
 						                </div>
 						            </div>
@@ -391,7 +408,7 @@
 						            </div>
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 						                <div class="input-group">
-						                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+						                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" onfocus="if (this.placeholder == 'Email Addres') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Email Addres';}">
 						                    <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
@@ -400,7 +417,7 @@
         					</div>
 	                        <div class="row" style="width: 390px; margin-left:0; margin-top:0;">
 	             				<div class="form-group" style="    width: 390px; margin-left: 0;">
-	                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" data-placement="top" data-trigger="manual" style= "height: 183px;"></textarea>
+	                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" onfocus="if (this.placeholder == 'Your Message') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Your Message';}" data-placement="top" data-trigger="manual" style= "height: 183px;"></textarea>
 	             				</div>
 				            	<center>
 					                <button  id="submitbtn" name="submitbtn" style="padding: 15px 45px; margin-top:30px;">SUBMIT <b>NOW</b> </button>
@@ -432,14 +449,14 @@
 								<div class="table_btn" >
 									<div class="col-md-6 win_input_groups" style="border-top-left-radius: 2px;border-bottom-left-radius: 2px;     border-right: none;">
 		                				<div class="input-group ">
-		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required >
+		                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required onfocus="if (this.placeholder == 'Full Name') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Full Name';}">
 		                   	 				<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
 		                				</div>
 		            				</div>
 
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 						                <div class="input-group">
-						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required >
+						                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required onfocus="if (this.placeholder == 'Phone Number') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Phone Number';}">
 						                    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>  
 						                </div>
 						            </div>
@@ -462,20 +479,20 @@
 						            </div>
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 2px;border-bottom-right-radius: 2px;">
 						                <div class="input-group ">
-						                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+						                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" onfocus="if (this.placeholder == 'Email Addres') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Email Addres';}">
 						                    <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
 									<div class="col-md-6 win_input_groups">
 						                <div class="input-group ">
-						                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}">
+						                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From" required pattern="[0-9]{5}" onfocus="if (this.placeholder == 'ZIP Code From') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'ZIP Code From';}">
 						                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
 
 						            <div class="col-md-6 win_input_groups" style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;">
 						                <div class="input-group ">
-						                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
+						                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}" onfocus="if (this.placeholder == 'ZIP Code To') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'ZIP Code To';}">
 						                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 						                </div>
 						            </div>
@@ -486,7 +503,7 @@
         					</div>
 	                        <div class="row" style="width: 390px; margin-left:0; margin-top:0;">
 	             				<div class="form-group" style="    width: 390px; margin-left: 0;">
-	                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" data-placement="top" data-trigger="manual" style= "height: 183px;"></textarea>
+	                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" onfocus="if (this.placeholder == 'Your Message') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Your Message';}" data-placement="top" data-trigger="manual" style= "height: 183px;"></textarea>
 	             				</div>
 				            	<center>
 					                <button  id="submitbtn" name="submitbtn" style="padding: 15px 45px; margin-top:30px;">SUBMIT <b>NOW</b> </button>
@@ -509,18 +526,19 @@
 			<div class="row" style="margin-bottom:45px;">
 				<div class="review text-center">
 					<h3 style="color:#fff;">CUSTOMERS <b>REVIEWS</b></h3>
-					<div class="col-md-6" style="margin-bottom:40px;">
-						<p>
-							To meet new shipper and consumer demands, modern warehouse design plans are larger, smarter, and more flexible. This issue draws a blueprint</br> for warehousing best practices that support supply chain optimization.
+					<div class="col-md-6" style="margin-bottom:20px;">
+						<p>We’re committed to providing the best customer service possible. 
+						In order to meet this promise, we vow to only hire friendly, positive people that share our core values, passion for helping others and obsession with customer service.  
 						</p>
 						<p style="margin-top:30px;">
-							Also: Intermodal rail moves supply chain efficiency</br>in the right direction.
+							We always enjoy hearing from our clients. Your opinion means so much to us, and gives us insight as to how we can continue improving our services. If you could take a moment to send us your feedback we would really appreciate it. We look forward to hearing from you!
 						</p>
 					</div>
-					<div class="col-md-6" style="margin-bottom:40px;">
+					<div class="col-md-6" style="margin-bottom:20px;">
 						<h4>
-							WE ARE LOADME 
-							<b style="color:#2e8ccf;">WORLDWIDE FREIGHT SERVICE</b>
+							WE HAVE MORE THAN </br>
+							<b style="color:#2e8ccf;">900 REVIEWS ON YELP</br>
+							FROM OUR CUSTOMERS</b>
 						</h4>
 					</div>
 
@@ -539,10 +557,10 @@
 					  <div class="carousel-inner" role="listbox">
 					    <div class="item active">
 						    <div class="col-md-6 item-1">
-						    	<div class="reviews-item">
+						    	<div class="reviews-item" style="background: #fff url('images/reviews/review_1a.jpg') no-repeat;">
 						      	
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_1.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
@@ -554,83 +572,83 @@
 						      	</div>
 						    </div>
 						    <div class="col-md-6 item-2">
-						    <div class="reviews-item">
+						    	<div class="reviews-item" style="background: #fff url('images/reviews/review_2a.jpg') no-repeat;">
 						      	
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_2.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
 						      	<p><span class="plazart-dropcap-type3" ><img src="images/review_4.jpg" style="margin-right:5px;"></span>
-						      	<p style="color:#333333; text-align: justify;">I called mid-Tuesday asking if they could help me move Wednesday 9am.The rep was on it and sent me 2 guys, Islom and John with a 16' truck the next day.</br></br>
+						      	<p style="color:#333333; text-align: justify;">Just wanted to show my sincere appreciation to Ricardo, Anthony, and Beca today! </br>
 
 								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>
-								The move went exactly as I'd expected and they were able to accommodate to my special requests as I needed to make a quick pit stop to drop off a third of my boxes at a house nearby before moving my classroom full of boxes to another school.  They were helpful and I couldn't be more happier. I will surely use them again for my next move.</p> </p>
+								They were a pleasure to work with, communicated frequently and clearly so we were informed every step of the way, and were quick as all hell! </br>
+
+								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>Will add more to this review later, but for the moment, I wanted to show my appreciation!</br></p></p>
 						      </div>
 						    </div>
 					    </div>
+
 					    <div class="item">
 						    <div class="col-md-6 item-1">
-						    <div class="reviews-item">
+						       <div class="reviews-item" style="background: #fff url('images/reviews/review_3a.jpg') no-repeat;">
 						      	
 
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_3.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
 						      	<p><span class="plazart-dropcap-type3" ><img src="images/review_4.jpg" style="margin-right:5px;"></span>
-						      	<p style="color:#333333; text-align: justify;">I called mid-Tuesday asking if they could help me move Wednesday 9am. The rep was on it and sent me 2 guys, Islom and John with a 16' truck the next day.</br></br>
+						      	<p style="color:#333333; text-align: justify;">I called around to a couple of companies looking for a mover to help me relocate to Santa Monica from Pasadena.  The guy on the phone was very helpful and  gave me a date and estimate right away.  I paid $50 deposit and even got a yelp deal ($20 for $40).  Daniel and Angel came to help with the move and they were great!  Fast, efficient, friendly.  All of my stuff was moved without any problems.</br></br>
 
 								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>
-								The move went exactly as I'd expected and they were able to accommodate to my special requests as I needed to make a quick pit stop to drop off a third of my boxes at a house nearby before moving my classroom full of boxes to another school.  They were helpful and I couldn't be more happier. I will surely use them again for my next move.</p> </p>
+								They are cheaper if you pay cash, and they do charge $30 fee (gas) and double mileage.  3 hour minimum.  I would definitely use them again!</p> </p>
 						     </div>
 						    </div>
 						    <div class="col-md-6 item-2">
-						    <div class="reviews-item">
+						     <div class="reviews-item" style="background: #fff url('images/reviews/review_4a.jpg') no-repeat;">
 						      
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_4.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
 						      	<p><span class="plazart-dropcap-type3" ><img src="images/review_4.jpg" style="margin-right:5px;"></span>
-						      	<p style="color:#333333; text-align: justify;">I called mid-Tuesday asking if they could help me move Wednesday 9am. The rep was on it and sent me 2 guys, Islom and John with a 16' truck the next day.</br></br>
-
-								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>
-								The move went exactly as I'd expected and they were able to accommodate to my special requests as I needed to make a quick pit stop to drop off a third of my boxes at a house nearby before moving my classroom full of boxes to another school.  They were helpful and I couldn't be more happier. I will surely use them again for my next move.</p> </p>
+						      	<p style="color:#333333; text-align: justify;">With all said and done, 3 movers, a 4 hour moving job (plus another hour for the drive back which makes it 5 hours total in reality), $25 extra destination stop (CalState policy fee), and $30 moving service added up to be a total of $500. Honestly guys, this is a pretty good deal with everything considered, including the friendly service and how hard working the movers I had were. In addition, Rodney was nice enough to let us know about Good Deeds moving which he says won't ask for the additional fees such as extra destination stops and what not. Overall, I would be more than happy hiring them again for the next move!</br></p> </p>
 						    </div>
 						    </div>
 					    </div>
 					    <div class="item">
 						    <div class="col-md-6 item-1 ">
-						    	<div class="reviews-item">
+						    	<div class="reviews-item" style="background: #fff url('images/reviews/review_5a.jpg') no-repeat;">
 						      	
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_5.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
 						      	<p><span class="plazart-dropcap-type3" ><img src="images/review_4.jpg" style="margin-right:5px;"></span>
-						      	<p style="color:#333333; text-align: justify;">I called mid-Tuesday asking if they could help me move Wednesday 9am. The rep was on it and sent me 2 guys, Islom and John with a 16' truck the next day.</br></br>
+						      	<p style="color:#333333; text-align: justify;">The service is amazing. Todd and Mario were fantastic at handling a couch, queen bed, and LOTS of boxes. They were on time and wrapped everything with protective padding. It's insane that they picked up, moved, dropped off our load from Thousand Oaks to Northridge for under $300.</br></br>
 
 								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>
-								The move went exactly as I'd expected and they were able to accommodate to my special requests as I needed to make a quick pit stop to drop off a third of my boxes at a house nearby before moving my classroom full of boxes to another school.  They were helpful and I couldn't be more happier. I will surely use them again for my next move.</p> </p>
+								Seriously consider movers for your next life change. It'll save you time and frustration. They even lined up our goods in my garage with gaps that help unpacking.</p> </p>
 						     </div> 
 						    </div>
 						    <div class="col-md-6 item-2">
-						    <div class="reviews-item">
+						    <div class="reviews-item" style="background: #fff url('images/reviews/review_6b.jpg') no-repeat;">
 						      
 						      	<div class="person">
-						      		<img class="img-rounded img-responsive" src="images/review_3.jpg" alt="">
+						      		<img class="img-rounded img-responsive" src="images/reviews/review_6.jpg" alt="">
 						      		<h6></h6>
 						      		<h5></h5>
 						      	</div>
 						      	<p><span class="plazart-dropcap-type3" ><img src="images/review_4.jpg" style="margin-right:5px;"></span>
-						      	<p style="color:#333333; text-align: justify;">I called mid-Tuesday asking if they could help me move Wednesday 9am. The rep was on it and sent me 2 guys, Islom and John with a 16' truck the next day.</br></br>
+						      	<p style="color:#333333; text-align: justify;">Anthony and Luke came to move my third floor one bedroom apartment (including VERY large living room items) and were careful to blanket, tape, and saran wrap anything that was even close to being too fragile. They also disassembled my bed in an astonishingly fast amount of time, and reassembled it at my next apartment in even faster fashion. That might have been the most productive two and a half hours of my life.</br></br>
 
 								<span class="plazart-dropcap-type3" ><img src="images/review_5.jpg" style="margin-right:5px;"></span>
-								The move went exactly as I'd expected and they were able to accommodate to my special requests as I needed to make a quick pit stop to drop off a third of my boxes at a house nearby before moving my classroom full of boxes to another school.  They were helpful and I couldn't be more happier. I will surely use them again for my next move.</p> </p>
+								Definitely would use CalState again! Thanks dudes!</p> </p>
 						     </div>
 						    </div>
 					    </div>						   
@@ -645,25 +663,20 @@
 	<section class="partners">
 		<div class="container">
 			<div class="row" style="margin-bottom:50px;">
-			<h3 style="margin-bottom:70px;">OUR <b>AWESOME PARTNER</b></h3>
-			<div class="col-md-2">
-				<img src="images/partners_1.jpg">
-			</div>
-			<div class="col-md-2">
-				<img src="images/partners_2.jpg">
-			</div>
-			<div class="col-md-2">
-				<img src="images/partners_3.jpg">
-			</div>
-			<div class="col-md-2">
-				<img src="images/partners_4.jpg">
-			</div>
-			<div class="col-md-2">
-				<img src="images/partners_5.jpg">
-			</div>
-			<div class="col-md-2">
-				<img src="images/partners_6.jpg">
-			</div>
+				<h3 style="margin-bottom:70px;">COMPANIES <b style="color:#2e8ccf;">WHO TRUST US</b></h3>
+				<div class="col-md-3">
+					<img src="images/trust1.jpg" style="margin-top:16px;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/trust2.jpg" style="margin-left:25%;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/trust3.jpg" style="margin-top:15px; float:right; margin-right: 27%;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/trust4.jpg" style="margin-top:9px;">
+				</div>
+			
 			
 			</div>
 
@@ -685,21 +698,21 @@
 						<div class="row table_btn" >
 							<div class="col-md-2 win_input_groups" style="border-top-left-radius: 5px;border-bottom-left-radius: 5px;">
                 				<div class="input-group ">
-                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required >
+                    				<input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required onfocus="if (this.placeholder == 'Full Name') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Full Name';}">
                    	 				<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
                 				</div>
             				</div>
 
 				            <div class="col-md-2 win_input_groups">
 				                <div class="input-group">
-				                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required >
+				                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" required onfocus="if (this.placeholder == 'Phone Number') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Phone Number';}">
 				                    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>  
 				                </div>
 				            </div>
 
 				            <div class="col-md-2 win_input_groups">
 				                <div class="input-group ">
-				                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
+				                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Addres" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" onfocus="if (this.placeholder == 'Email Addres') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Email Addres';}">
 				                    <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
@@ -722,14 +735,14 @@
 
 				            <div class="col-md-2 win_input_groups">
 				                <div class="input-group ">
-				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}">
+				                    <input type="text" name="code_from" id="code_from" class="form-control" placeholder="ZIP Code From"  required pattern="[0-9]{5}"  onfocus="if (this.placeholder == 'ZIP Code From') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'ZIP Code From';}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
 
 				            <div class="col-md-2 win_input_groups" style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;">
 				                <div class="input-group ">
-				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}">
+				                    <input type="text" name="code_to" id="code_to" class="form-control" placeholder="ZIP Code To" required pattern="[0-9]{5}" onfocus="if (this.placeholder == 'ZIP Code To') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'ZIP Code To';}">
 				                    <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
 				                </div>
 				            </div>
@@ -737,7 +750,7 @@
         				</div>
                         <div class="row" style="width: 1170px; margin-left: 0;">
              				<div class="form-group" style="    width: 1170px; margin-left: 0;">
-                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" data-placement="top" data-trigger="manual" style= "height: 270px;"></textarea>
+                				<textarea id="msg" class="form-control" name="text" placeholder="Your Message" onfocus="if (this.placeholder == 'Your Message') {this.placeholder = '';}" onblur="if (this.placeholder == '') {this.placeholder = 'Your Message';}" data-placement="top" data-trigger="manual" style= "height: 270px;"></textarea>
              				</div>
 			            <center>
 			                <button  id="submitbtn" name="submitbtn" style="padding: 15px 45px; margin-top:30px;">SUBMIT <b>NOW</b> </button>
@@ -766,7 +779,7 @@
 					<li><a href="#advantages">ADVANTAGES</a></li>
 					<li><a href="#prices">PRICES</a></li>
 					<li><a href="#reviews"">REVIEWS</a></li>
-					<li><a href="#quote">GET A QUOTE</a></li>
+					<li><a href="./quote.html">GET A QUOTE</a></li>
 				</ul>
 					
 				</div>

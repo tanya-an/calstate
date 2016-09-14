@@ -35,8 +35,8 @@ a:hover, a:visited, a{
 	-ms-transition: all .7s ease 0s;
 }
 .top-header img.logo{
-	height: 48px;
-	width: 120px;
+	height: 60px;
+	width: 128px;
 	margin-left: 15px;
 	transition: all .7s ease 0s;
 	-webkit-transition: all .7s ease 0s;
@@ -63,10 +63,15 @@ a:hover, a:visited, a{
 	color: #fff;
 }
 .navbar-default .navbar-collapse{
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.9);
+	border: none;
+}
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
 }
 ul.nav{
-	margin: 0;
+	margin: 20px 0;
 	padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
@@ -101,8 +106,8 @@ ul.nav{
 
 /*banner area*/
 .banner{
-	background: url(../images/baner-xs.png);
-	min-height: 551px;
+	background: url(../images/baner-xs.jpg);
+	min-height: 320px;
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: hidden;
@@ -114,7 +119,7 @@ ul.nav{
 	font-size: 13px;
 	color: #fff;
 	font-family: 'OpenSans-Light', sans-serif;
-	margin-top: 92px;
+	margin-top: 80px;
 	margin-bottom: 0;
 	
 	margin-left: 5px;
@@ -134,6 +139,7 @@ ul.nav{
 	font-weight: 100;
 	
 	margin-top: 8px;
+	margin-bottom: 5px;
 	
   font-style: normal;
   font-stretch: normal;
@@ -150,8 +156,8 @@ ul.nav{
 	font-family: 'OpenSans-Regular', sans-serif;
 	text-transform: uppercase;
 	font-weight: 100;
-	margin-top: 2px;
-	margin-bottom: 35px;
+	margin-top: 0;
+	margin-bottom: 20px;
 	
 }
 
@@ -209,7 +215,7 @@ ul.nav{
 }
 .about_us h3{
 	margin-top:50px;
-	margin-bottom:50px;
+	margin-bottom:40px;
 	font-size: 22px;
 	color: #000;
 	font-family: 'OpenSans-Bold', sans-serif;
@@ -242,12 +248,13 @@ ul.nav{
 
 .about_us .about_us_info{
 	border: 1px #fff solid;
-	background: #fff url("../images/man-xs.png") 100% 10% no-repeat;
+	background: #fff url("../images/man-xs.png") 99.7% 10% no-repeat;
 	padding-left: 19px;
 	min-height: 394px;
 	margin-left:15px; 
-	margin-bottom:30px;     
+	margin-bottom:20px;     
 	min-width: 290px;
+	width: 90%;
 }
 .about_us h4{
 	font-size: 25px;
@@ -290,7 +297,7 @@ ul.nav{
 	margin-bottom: 4px;
 	padding-top: 15px;
 	padding-right: 45px;
-	padding-bottom: 45px;
+	padding-bottom: 35px;
 	line-height: 1.43;
   letter-spacing: -0.3px;
 	text-align: justify;
@@ -308,7 +315,7 @@ ul.nav{
 }
 .about_us .carousel-indicators {
 	position: absolute;
-    top:-25px;
+    bottom: -10px;
     left:0;
     width: 100%;
     height: 25px;
@@ -419,7 +426,7 @@ ul.nav{
 	width: 100%;
 	background: #fff;
 	
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .price-plan .long h5{
 	text-align: justify;
@@ -522,7 +529,7 @@ ul.nav{
 	background: url(../images/reviews-xs.png) no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 657px;
+	min-height: 657px;
 	
 }
 .reviews h3{
@@ -537,6 +544,26 @@ ul.nav{
 	text-transform: uppercase;
 	font-weight: 400;
 }
+#owl-demo .tzBlog-item{
+        display: block;
+        width: 100%;
+        
+}
+
+#owl-demo .item{
+        display: block;
+        width: 100%;
+        
+}
+.reviews .owl-theme .owl-controls .owl-page.active span, 
+.reviews .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #2e8ccf !important;
+}
+.reviews .owl-theme .owl-controls .owl-page span{
+	opacity: 1 !important;
+	background: #fff !important;
+}
+
 .reviews .reviews-item {
 	background: #fff;
 	border: 1px solid #2e8ccf;
@@ -544,6 +571,7 @@ ul.nav{
 	background-size: contain;
 	padding-left: 10px;
     padding-right: 15px;
+    min-height: 497px;
 }
 .reviews .reviews-item .person img{
 	height: 70px;
@@ -555,23 +583,7 @@ ul.nav{
 	margin-bottom: 40px;
 	text-align: justify;
 }
-.reviews .the-pricing-slider li{
-	background-color: #fff;
-	width: 14px;
-	height: 14px;
-	margin:0 5px;
-	
-}
-.reviews .carousel-indicators {
-	position: absolute;
-    bottom: -50px;
-}
-.reviews .the-pricing-slider .carousel-indicators .active {
-	border:1px solid #2e8ccf;
-	background-color: #2e8ccf;
-	width: 16px;
-	height: 16px;
-}
+
 .partners{
 	background:#f6f6f6;
 }
@@ -594,9 +606,8 @@ ul.nav{
 	padding-right: 0;
 	padding-left: 0;
 }
-.partners .partners img {
-	height: 86px;
-	width: 100%;
+.partners p{
+	text-align: center;
 }
 .quote {
 	background: url(../images/quote-xs.png) no-repeat;
@@ -693,4 +704,5 @@ footer p{
 	text-align: left;
 	margin-bottom: 16px;
 	margin-top:15px;
+	text-align: center;
 }
